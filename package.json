@@ -1,0 +1,19 @@
+{
+  "name": "time-buyer",
+  "version": "0.1.0",
+  "description": "开源人生模拟器：30000 天寿命当钱花，15 分钟过完一生。Your lifespan is the currency.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node scripts/smoke_test.mjs",
+    "mock-llm": "node scripts/mock_llm_server.mjs",
+    "e2e": "node scripts/e2e_browser_test.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.47.0",
+    "vite": "^5.4.0"
+  }
+}
