@@ -7,11 +7,22 @@ English · [简体中文](./README.md)
 
 **An open-source life simulator.** You're born with 30,000 days — that's your only currency. Buy a relationship, a trip, a skill: everything has a price. Live a whole life in a real-time 15 minutes, and at the end your "life statement" tells you exactly where your days — your *life* — actually went, and whether it was worth it.
 
+## Quick start
+
+Requires Node.js 18+ (check with `node -v`; npm ships with Node, no separate install).
+
 ```bash
-npm install && npm run dev
+git clone https://github.com/TThoney512/time-buyer.git
+cd time-buyer
+npm install
+npm run dev
 # the terminal prints a URL (usually http://localhost:5173) — open it in your browser
 # you're buying your third thing within 5 minutes
 ```
+
+No git? Click **Code → Download ZIP** on the repo page, unzip, then start from `npm install`.
+
+> `npm install` pulls in exactly one dev server (Vite) — **the game itself has zero dependencies** (pure ES Modules, no build step). It can be served by any static file server.
 
 **Closed the browser? Lost the tab?** Just `cd` back into the project and run `npm run dev` again, then revisit the printed URL. Cross-run data (achievements, rebirth points, your life list, language, BYOK config) lives in browser `localStorage` and survives — but **a round in progress is not saved**: closing the tab ends that 15-minute life (your next life starts from the welcome screen). On purpose: quitting mid-life is itself an ending 🙂 Clearing browser data or switching browsers starts you from zero. Tired of the terminal? `npm run build` outputs `dist/` — drop it on any static host (GitHub Pages, etc.) and you have a permanent URL.
 
