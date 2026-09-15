@@ -20,6 +20,9 @@ Thumbs.db
 # 实测截图产物（每次跑 e2e 重新生成）
 scripts/e2e_shots/
 
+# 工具链本地数据（非项目产物，不入库）
+.workbuddy/
+
 # 编辑器 / 系统临时文件
 *~
 *.swp

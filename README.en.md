@@ -21,6 +21,7 @@ npm run dev
 ```
 
 No git? Click **Code → Download ZIP** on the repo page, unzip, then start from `npm install`.
+Prefer a frozen archive? Grab `Source code (zip)` from the [**Releases page**](https://github.com/TThoney512/time-buyer/releases).
 
 > `npm install` pulls in exactly one dev server (Vite) — **the game itself has zero dependencies** (pure ES Modules, no build step). It can be served by any static file server.
 
@@ -70,8 +71,11 @@ src/
 - [x] v0.1 Playable in the browser (offline mode)
 - [x] v0.2 **BYOK — bring your own LLM**: OpenAI / Claude / Gemini / DeepSeek / Ollama compatible; your model writes your epitaph
 - [x] v0.3 **Milestone AI dialogue + bilingual shell (EN/中文)**: before each of the three crossroads, someone speaks to you first
-- [x] v0.4 **Life replay export (Markdown)** — one tap on the settlement screen turns your whole life into a shareable timeline (file download + clipboard)
-- [ ] v1.0 Official release
+- [x] v0.4 **Life replay export (Markdown)** — one tap on the settlement screen turns your whole life into a shareable timeline (file download + clipboard) — **archived as [`v0.4.0`](https://github.com/TThoney512/time-buyer/releases)**
+- [ ] v0.5 → v1.0 — see [**`docs/ROADMAP.md`**](./docs/ROADMAP.md)
+
+> **From v0.5 onward we ship in order**: narrative threads + resonance → derived age & life stages → time visualization → world packs → code-only director.
+> The ranking rationale is in [`docs/AI导演系统-评估与优化.md`](./docs/AI导演系统-评估与优化.md).
 
 > Backlog (unscheduled, uncommitted — community contributions welcome): Seed sharing (reproducible runs), Prompt Pack (content localization).
 

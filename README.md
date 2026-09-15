@@ -11,6 +11,8 @@
 
 需要 Node.js 18+（`node -v` 可验证；npm 随 Node 一起装好，无需单独安装）。
 
+> **📦 想直接下载 ZIP？** 到 [**Releases 页面**](https://github.com/TThoney512/time-buyer/releases) 下载 `Source code (zip)`，解压后从 `npm install` 开始。不装 git 也能玩。
+
 ```bash
 git clone https://github.com/TThoney512/time-buyer.git
 cd time-buyer
@@ -21,6 +23,7 @@ npm run dev
 ```
 
 没装 git？在仓库页点 **Code → Download ZIP** 解压，进入该目录后从 `npm install` 开始即可。
+（或在文件树里先点上方 **Releases**，下 `v0.4.0` 那个归档包。）
 
 > `npm install` 装的只有 Vite 一个开发服务器——**游戏本身零依赖**（纯 ES Modules，无构建步骤）。所以它也能被任何静态文件服务器直接托管。
 
@@ -66,8 +69,11 @@ src/
 - [x] v0.1 浏览器可玩（离线模式）
 - [x] v0.2 **BYOK 接入你的 LLM**：OpenAI / Claude / Gemini / DeepSeek / Ollama 全兼容，墓志铭由你的模型为你写
 - [x] v0.3 **里程碑 AI 对话 + 壳层双语（中/EN）**：三次人生岔路口，父亲/老友/镜中的先和你说话，再让你选
-- [x] v0.4 **人生回放导出（Markdown）**：结算页一键导出"一生大事记"时间线，文件下载 + 剪贴板双通道
-- [ ] v1.0 正式发布
+- [x] v0.4 **人生回放导出（Markdown）**：结算页一键导出"一生大事记"时间线，文件下载 + 剪贴板双通道  **已归档为 [`v0.4.0`](https://github.com/TThoney512/time-buyer/releases)**
+- [ ] v0.5 → v1.0 详见 [**`docs/ROADMAP.md`**](./docs/ROADMAP.md)
+
+> **v0.5 起按顺序推进**：线索系统 + 回响机制 → 派生年龄与人生阶段 → 时间可视化 → 世界包 → 纯代码导演。
+> 排序依据与评估结论见 [`docs/AI导演系统-评估与优化.md`](./docs/AI导演系统-评估与优化.md)。
 
 > 备选池（不排期、不承诺，欢迎社区认领）：Seed 分享（可复现的一局）、Prompt Pack（内容本地化包）。
 
