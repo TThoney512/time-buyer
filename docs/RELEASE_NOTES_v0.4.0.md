@@ -137,8 +137,10 @@ npm run e2e        # 浏览器端到端测试（需 playwright-core）
 
 ## 下一站
 
-原版本到此归档。**v0.5+ 将在此基线上按顺序推进优化**，路线图见
-[`ROADMAP.md`](../../../blob/main/docs/ROADMAP.md)（仓库内路径：`docs/ROADMAP.md`）。
+原版本到此归档。**v0.5+ 将在此基线上按顺序推进优化。**
+
+路线图见 👉 [**docs/ROADMAP.md**](https://github.com/TThoney512/time-buyer/blob/main/docs/ROADMAP.md)
+评估依据见 👉 [docs/AI导演系统-评估与优化.md](https://github.com/TThoney512/time-buyer/blob/main/docs/AI%E5%AF%BC%E6%BC%94%E7%B3%BB%E7%BB%9F-%E8%AF%84%E4%BC%B0%E4%B8%8E%E4%BC%98%E5%8C%96.md)
 
 ---
 
